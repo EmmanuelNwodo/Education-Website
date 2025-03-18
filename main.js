@@ -28,3 +28,7 @@ faq.addEventListener('click', () => {
   }
 });
 });
+
+
+//initialize swiperjs//
+
