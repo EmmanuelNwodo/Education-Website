@@ -178,7 +178,7 @@ header{
   position: relative;
   top: 5rem;
   overflow: hidden;
-  height: 70vh;
+  height: 90vh;
   margin-bottom: 5rem;
 }
 
@@ -202,7 +202,7 @@ header{
 
 .categories{
   background: var(--color-bg1);
-  height: 31rem;
+  height: 35rem;
 }
 
 
@@ -403,4 +403,85 @@ line-height: 2.2;
   left: 50%;
   top: -1.5rem;
   transform: rotate(45deg);
+}
+
+
+/*---------------Footer section----------------------*/
+
+.footer{
+background: var(--color-bg1);
+padding-top: 5rem;
+font-size: 0.9rem;
+}
+
+.footer_container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
+
+}
+
+.footer_container h4{
+
+  margin-bottom: 1.2rem;
+}
+
+.footer-1 a img{
+  margin-bottom: 1.5rem;
+}
+
+.footer-1 p{
+
+  margin: 0 0 2rem;
+}
+
+.footer ul li{
+  margin-bottom: 0.7rem;
+}
+
+.footer ul li a:hover{
+  text-decoration: underline;
+}
+
+.footer_socials{
+  display:flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+  margin-top: 1.2rem;
+  
+}
+
+.footer_copyright{
+  text-align: center;
+  margin-top: 4rem;
+  padding: 1.2rem 0;
+  border-top: 2px solid var(--color-bg2);
+}
+
+
+/*----------Media Queries(Tablet)--------------*/
+
+@media screen and (max-width:1024px){
+  .container{
+    width: var(--container-width-md);
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+
+  h2{
+    font-size: 1.7rem;
+  }
+
+
+  h3{
+    font-size: 1.4rem;
+  }
+
+  h4{
+    font-size:1.2rem ;
+  }
+
+  
 }
