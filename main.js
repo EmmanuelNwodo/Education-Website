@@ -30,5 +30,22 @@ faq.addEventListener('click', () => {
 });
 
 
-//initialize swiperjs//
+//show/hide nav menu//
+if(window.width <= 1024){
 
+const menu = document.querySelector('.nav_menu')
+
+const openMenuBtn = document.querySelector('#open-menu-btn')
+const closeMenuBtn = document.querySelector('#close-menu-btn')
+
+openMenuBtn.addEventListener('click', () =>{
+  menu.style.display = "flex"
+  closeMenuBtn.style.display= "inline-block"
+  openMenuBtn.style.display = "none"
+})
+
+closeMenuBtn.addEventListener('click', () =>{
+  menu.style.display ="none"
+  openMenuBtn.style.display ="inline-block"
+  closeMenuBtn.style.display ="none"
+})};
