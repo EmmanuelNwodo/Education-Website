@@ -619,3 +619,92 @@ font-size: 0.9rem;
       margin-left: 5rem;
      }
 }
+
+
+
+/*===========Media Querires(mobile Phones)===================================*/
+
+@media screen and (max-width:600px) {
+
+  .container{
+    width: var(--container-width-sm);
+  }
+
+  h1{
+    font-size: 1.5rem;
+   
+  }
+
+  /*==========Nav Menu==============*/
+
+  .nav_menu{
+    right:3%
+  }
+
+  nav button{
+    padding-right: 1rem;
+  }
+
+  /*==========header section==============*/
+  header{
+    height: 100vh;
+    
+  }
+
+  
+  
+  .header_container{
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top:1rem;
+  }
+
+  .header_left p{
+    margin-bottom: 1.3rem;
+  }
+
+  /*==========categories section==============*/
+
+  .categories_right{
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
+  }
+
+  .category{
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  .category_icon{
+    margin-top: 4px;
+    display: inline-block;
+  }
+
+
+
+  /*==========popular courses section==============*/
+
+  .courses_container{
+    grid-template-columns: 1fr;
+  }
+
+  
+
+
+/*==========faqs section==============*/
+  .faq{
+    padding: 1.2rem;
+  }
+
+  /*==========testimonial section==============*/
+
+  .testimonial_body{
+    padding: 1.2rem;
+  }
+ 
+  /*==========footer section==============*/
+
+  
+
+
+}

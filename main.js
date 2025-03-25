@@ -31,7 +31,7 @@ faq.addEventListener('click', () => {
 
 
 //show/hide nav menu//
-if(window.width <= 1024){
+
 
 const menu = document.querySelector('.nav_menu')
 
@@ -48,4 +48,4 @@ closeMenuBtn.addEventListener('click', () =>{
   menu.style.display ="none"
   openMenuBtn.style.display ="inline-block"
   closeMenuBtn.style.display ="none"
-})};
+});
