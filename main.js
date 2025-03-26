@@ -38,6 +38,7 @@ const menu = document.querySelector('.nav_menu')
 const openMenuBtn = document.querySelector('#open-menu-btn')
 const closeMenuBtn = document.querySelector('#close-menu-btn')
 
+
 openMenuBtn.addEventListener('click', () =>{
   menu.style.display = "flex"
   closeMenuBtn.style.display= "inline-block"
